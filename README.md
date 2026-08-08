@@ -121,7 +121,7 @@ graph TD
     
     E[User Query via Chat] --> F[LangGraph Agent]
     F --> G[Search Vector Database]
-    D -.->|Retrieves Context| G
+    D -->|Retrieves Context| G
     G --> H[Synthesize Response with Gemini]
     H --> I[Save to SQLite Chat History]
     I --> J[Return Answer with Source References]
