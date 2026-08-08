@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+venv/
+env/
+ENV/
+
+# Local configuration files (containing keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python caches and compiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Databases & local user data
+backend/data/
+*.db
+*.sqlite3
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
